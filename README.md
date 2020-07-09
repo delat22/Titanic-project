@@ -12,7 +12,7 @@ The goal is to build a Model that can predict the survival or the death of a giv
 # Methodology
 The type of machine learning method used is called classification, because predictions were classified among each passenger as ‘survived’ or not.
 
-Two datasets were extracted from Kaggle - train set and test set, which have a data set of different information about passengers onboard the Titanic, and we used that information to predict whether those people survived or not. 
+Two datasets were extracted from [Kaggle](https://www.kaggle.com/c/titanic/data) - train set and test set, which have a data set of different information about passengers onboard the Titanic, and we used that information to predict whether those people survived or not. 
 
 The training set contains data we used to train our model. It has a number of feature columns which contain various descriptive data, as well as a column of the target values used to predict: in this case, Survival. The testing set contains all of the same feature columns, but is missing the target value column. Exploring through the data indicates that Age, Sex, Pclass, Parch and Sibsp would be a good predictor of survival. 
 
