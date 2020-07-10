@@ -14,11 +14,11 @@ The type of machine learning method used is called classification, because pred
 
 Two datasets were extracted from [Kaggle](https://www.kaggle.com/c/titanic/data) - train set and test set, which have a data set of different information about passengers onboard the Titanic, and we used that information to predict whether those people survived or not. 
 
-The training set contains data we used to train our model. It has a number of feature columns which contain various descriptive data, as well as a column of the target values used to predict: in this case, Survival. The testing set contains all of the same feature columns, but is missing the target value column. Exploring through the data indicates that Age, Sex, Pclass, Parch and Sibsp would be a good predictor of survival. 
+The training set contains data we used to train our model. It has a number of feature columns which contain various descriptive data, as well as a column of the target values used to predict: in this case, Survival. The testing set contains all of the same feature columns, while the target value column was missing. Exploring through the data indicates that Age, Sex, Pclass, Parch and Sibsp would be a good predictor of survival. 
 
-Logistic Regression was used to train our model and scikit-learn library tools was used to instantiate, fit, predict and evaluate the accuracy of the predictions .
+Logistic Regression was used to train our model and scikit-learn library tools was used to instantiate, fit, predict and evaluate the accuracy of the predictions.
 
-To give us a better understanding of the real performance of our model, a technique called cross validation was used to train and test our model on different splits of our data, and then average the accuracy scores.
+To give us a better understanding of the real performance of our model, a technique called cross validation was used to train and test our model on different splits of our data by which the average accuracy scores was taken.
  
 # Result
 Analysis and visualization of data can be seen in titanic.ipynb or titanic.html file attached to the link of this file.
