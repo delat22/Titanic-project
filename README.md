@@ -21,7 +21,7 @@ Logistic Regression was used to train our model and scikit-learn library tools w
 To give us a better understanding of the real performance of our model, a technique called cross validation was used to train and test our model on different splits of our data by which the average accuracy scores was taken.
  
 # Result
-Analysis and visualization of data can be seen in titanic.ipynb or titanic.html file attached to the link of this file.
+Analysis and visualization of data can be seen in titanic.ipynb file attached to the link of this file.
 
 # Conclusion
 From the results of our k-fold validation, the accuracy number varies with each fold – ranging between 76.4% and 85.3%. As it happens, our average accuracy score was 80.5%, which is not far from the 80.4% we got from our simple train/test split.
